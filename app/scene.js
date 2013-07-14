@@ -7,7 +7,7 @@ var Scene = (function () {
     Scene.getInstance = function getInstance(renderer) {
         if(Scene._instance == null) {
             if(renderer == null) {
-                renderer = new RendererWebGL();
+                renderer = new RendererThreeJs();
             }
             Scene._instance = new Scene(renderer);
         }

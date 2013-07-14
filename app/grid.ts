@@ -1,6 +1,6 @@
 ///<reference path='../libs/three.d.ts'/>
 ////<reference path='renderer.canvas.ts'/>
-///<reference path='renderer.webgl.ts'/>
+///<reference path='renderer.threejs.ts'/>
 ///<reference path='scene.ts'/>
 ///<reference path='sceneobject.ts'/>
 class Grid extends SceneObject {

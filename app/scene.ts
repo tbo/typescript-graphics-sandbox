@@ -1,6 +1,6 @@
 ///<reference path='../libs/three.d.ts'/>
 ///<reference path='sceneobject.ts'/>
-///<reference path='renderer.webgl.ts'/>
+///<reference path='renderer.threejs.ts'/>
 ///<reference path='grid.ts'/>
 class Scene {
     private static _instance:Scene;
@@ -17,7 +17,7 @@ class Scene {
     {
         if(_instance == null) {
             if(renderer == null) {
-                renderer =  new RendererWebGL();
+                renderer =  new RendererThreeJs();
             }
             _instance = new Scene(renderer);
         }

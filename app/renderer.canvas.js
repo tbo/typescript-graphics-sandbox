@@ -12,5 +12,5 @@ var RendererCanvas = (function (_super) {
         this.renderer = new THREE.CanvasRenderer();
     };
     return RendererCanvas;
-})(RendererWebGL);
+})(RendererThreeJs);
 //@ sourceMappingURL=renderer.canvas.js.map

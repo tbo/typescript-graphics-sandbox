@@ -1,5 +1,5 @@
 ///<reference path='renderer.canvas.ts'/>
-///<reference path='renderer.webgl.ts'/>
+///<reference path='renderer.threejs.ts'/>
 ///<reference path='renderer.ts'/>
 ///<reference path='scene.ts'/>
 ///<reference path='spaceship.ts'/>

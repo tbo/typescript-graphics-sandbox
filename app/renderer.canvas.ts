@@ -1,7 +1,7 @@
 ///<reference path='../libs/three.d.ts'/>
 ///<reference path='renderer.ts'/>
-///<reference path='renderer.webgl.ts'/>
-class RendererCanvas extends RendererWebGL implements RendererInterface {
+///<reference path='renderer.threejs.ts'/>
+class RendererCanvas extends RendererThreeJs implements RendererInterface {
 
     constructor()
     {
