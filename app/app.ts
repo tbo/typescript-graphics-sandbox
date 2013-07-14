@@ -13,4 +13,5 @@ window.onload = function() {
     var asteroid = new Asteroid();
     asteroid.setPosition(300,300);
     asteroid.show();
+    var player = new Controls(spaceship);
 };
