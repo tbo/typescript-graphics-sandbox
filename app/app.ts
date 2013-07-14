@@ -6,7 +6,7 @@
 ///<reference path='./asteroid.ts'/>
 ///<reference path='./controls.ts'/>
 window.onload = function() {
-    var scene = Scene.getInstance(new RendererWebGL());
+    var scene = Scene.getInstance(new RendererCanvas());
     var grid = new Grid();
     var spaceship = new Spaceship();
     spaceship.show();
